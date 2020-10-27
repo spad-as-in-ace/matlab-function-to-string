@@ -1,5 +1,5 @@
 %%
-% George Bizos 2020
+% 26/10/2020
 %%
 function str = fixVar(varargin)
     % Default number of digits after the decimal to truncate to

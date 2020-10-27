@@ -1,5 +1,5 @@
 %%
-% George Bizos 2020
+% 26/10/2020
 %%
 function str = toString(varargin)
     str = func2str(varargin{1});
