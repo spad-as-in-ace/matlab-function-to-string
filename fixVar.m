@@ -6,8 +6,7 @@ function str = fixVar(varargin)
     dec = 2;
     str = varargin{1};
     if(nargin == 2)
-        str = strrep(str, inputname(2), sprintf("%." + dec + "f",...
-            varargin{2}));
+        str = strrep(str, inputname(2), sprintf("%." + dec + "f", varargin{2}));
     else
         if(and(nargin >= 3, isempty(inputname(2))))
             dec = varargin{2};
