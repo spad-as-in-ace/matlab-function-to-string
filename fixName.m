@@ -1,5 +1,6 @@
 %%
 % 26/10/2020
+% Ver. 0.1.4
 %%
 function str = fixName(varargin)
     str = func2str(varargin{1});
