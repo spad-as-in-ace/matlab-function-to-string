@@ -1,5 +1,6 @@
 %%
 % 26/10/2020
+% Ver. 0.1.4
 %%
 function str = fixVar(varargin)
     % Default number of digits after the decimal to truncate to
