@@ -1,6 +1,6 @@
 %%
 % 26/10/2020
-% Ver. 0.1.4
+% Ver. 0.1.5
 %%
 function str = toString(varargin)
     str = func2str(varargin{1});
