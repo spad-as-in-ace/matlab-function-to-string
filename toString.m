@@ -7,7 +7,7 @@ function str = toString(varargin)
     str = str((strfind(str,')') + 1):length(str));
     if(nargin == 1)
         str = inputname(1) + " = " + str;
-    elseif(nargin >= 2)
+    elseif(nargin >= 2 && strcmp(varargin{2},''))
         str = varargin{2} + " = " + str;
     end
 end
