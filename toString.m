@@ -1,13 +1,13 @@
 %%
 % 26/10/2020
-% Ver. 0.1.5
+% Ver. 0.1.6
 %%
 function str = toString(varargin)
     str = func2str(varargin{1});
     str = str((strfind(str,')') + 1):length(str));
     if(nargin == 1)
         str = inputname(1) + " = " + str;
-    elseif(nargin >= 2 && strcmp(varargin{2},''))
+    elseif(nargin >= 2 && ~strcmp(varargin{2},''))
         str = varargin{2} + " = " + str;
     end
 end
